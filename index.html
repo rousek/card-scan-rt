@@ -1,28 +1,17 @@
-<!DOCTYPE html>
-<html>
+<!doctype html>
+<html lang="en">
 <head>
-    <title>Real Time Test</title>
-    <link rel="stylesheet" href="styles.css">
-</head>
+  <meta charset="utf-8">
+  <title>OcrNg</title>
+  <base href="/">
+  <meta name="viewport" content="width=device-width, initial-scale=1, maximum-scale=1.0, user-scalable=no">
+  <link rel="icon" type="image/x-icon" href="favicon.ico">
+  <link href="https://fonts.googleapis.com/css?family=Roboto:300,400,500&display=swap" rel="stylesheet">
+  <link href="https://fonts.googleapis.com/icon?family=Material+Icons" rel="stylesheet">
+
+  <script id="opencv-script" async src="./assets/opencv.js"></script>
+<link rel="stylesheet" href="styles.7ae5667e36cdfd936f95.css"></head>
 <body>
-    <div class="video-container">
-        <video id="videoInput" autoplay="true" muted playsinline></video>
-        <div id="target">
-            <div class="corner left top"></div>
-            <div class="corner right top"></div>
-            <div class="corner left bottom"></div>
-            <div class="corner right bottom"></div>
-        </div>
-    </div>
-    <canvas id="canvasOutput"></canvas>
-    <canvas id="cardOutput"></canvas>
-
-
-    <div id="errorOutput"></div>
-    <button onclick="toggle()">Restart</button>
-</body>
-
-<script src="utils.js" type="text/javascript"></script>
-<script src="script.js" type="text/javascript"></script>
-<script src="opencv.js" type="text/javascript" onload="onOpenCvLoad()"></script>
+  <app-root></app-root>
+<script src="runtime-es2015.edb2fcf2778e7bf1d426.js" type="module"></script><script src="runtime-es5.edb2fcf2778e7bf1d426.js" nomodule defer></script><script src="polyfills-es5.b275eea691e9997531c8.js" nomodule defer></script><script src="polyfills-es2015.1f5e3e92756c3a08a473.js" type="module"></script><script src="main-es2015.b6d4c4ed63714c988f23.js" type="module"></script><script src="main-es5.b6d4c4ed63714c988f23.js" nomodule defer></script></body>
 </html>
